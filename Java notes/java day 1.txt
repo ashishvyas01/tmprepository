@@ -1,0 +1,82 @@
+Java Language Specification :
+Java Syntax is defined in Java Language Specification and Java Library is defined in the Java API.
+
+JDK is software for developing and running Java programs.
+
+IDE is an integrated development environment for developing programs.
+
+Java Language Specification and Java API defined Java standards.
+
+API( Application Programming Interface) is also known as library which contains predefined classes and interfaces for developing Java programs.
+
+Java comes in three editions:
+Java SE - Java Standart Edition
+Java EE - Java Enterprise Edition
+Java ME - Java Micro Edition
+
+Java SE is used to develop client side application which can run standalone from web browser.
+Java EE is used to develop server side application such as Java Servlets, Java Server Pages(JSP) and Java Server Faces(JSF).
+Java ME is used to develop application for mobile devices like cell phones.
+
+Simple Java Program:
+public class Welcome {
+	public static void main(String args[])
+	{
+		System.out.println("Welcome to Java");
+	}
+}
+
+Output: Welcome to Java
+
+You save Java programs in a .java file and compile it into .class file.
+The .class file is executed by the Java Virtual Machine.
+
+The source file must end with the extension .java and must have the same exact name
+as the public class name. For example, the file for the source code in Listing 1.1 should
+be named Welcome.java, since the public class name is Welcome.
+
+A Java compiler translates a Java source file into a Java bytecode file. The following command
+compiles Welcome.java:
+
+Javac Welcome.java // To Compile
+
+Java Welcome // To run
+
+The programmer will develop the source code.
+The compiler will compile the source code and generate the bytecode for the Java Virtual Machine to read and interpret the programs.
+Once the program is successfully compiled, The compiler will generate the .class file.
+Once the program is executed by the JVM, it will display out put on the console.
+
+Command to execute the Java program is as follows.
+Java Welcome // where Welcome is the class name of the java class.
+
+Once the java program is executed by java Welcome command, the output will be displayed on the console.
+
+
+The Java language is high level language but the bytecode is low level language.
+
+The bytecode is similar to machine instructions but it is machine independent so that it can run on any machine that has a JVM.
+JVM stands for Java Virtual Machine.
+JVM is not physicl machine but a program which interprets the java bytecode. This is the primary advantage of Java language.
+Java bytecode can run on variety of hardware and operating system.
+
+Java source code is compiles into java bytecode and java bytecode is interpreted by the JVM.
+Your Java code may use the code in the Java Library and JVM will execute this code.
+
+Short Note:
+1.Welcome.java(source code) is compiled by the Java Compiler.
+2.Java Compiler generates Welcome.class file which is Java bytecode.
+
+Tip:
+If you execute a class file that does not exist, a NoClassDefFoundError will occur.
+If you execute a class file that does not have a main method or mistype the main method, a NoSuchMethodError will occur.
+
+Note:
+When executing a java program, the JVM first loads the bytecode of the class(.class file) to memory using a program called class loader.
+If your program uses other classes, the class loader dynamically loads them just before they are needed.
+After a class is loaded,the JVM uses a program called the bytecode verifier to check the validity of the bytecode and to ensure that the bytecode
+does not violate java's security restrictions.
+
+Java enforces strict security to make sure that Java class files are not tempared with and do not harm your computer.
+
+

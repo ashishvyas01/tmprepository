@@ -48,6 +48,7 @@ Once the program is successfully compiled, The compiler will generate the .class
 Once the .class file is executed by the JVM, it will display the out put on the console.
 
 Command to execute the Java program is as follows.
+
 Java Welcome // where Welcome is the class name of the java class.
 
 Once the java program is executed by java Welcome command, the output will be displayed on the console.

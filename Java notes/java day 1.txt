@@ -18,7 +18,7 @@ Java SE is used to develop client side application which can run standalone from
 Java EE is used to develop server side application such as Java Servlets, Java Server Pages(JSP) and Java Server Faces(JSF).
 Java ME is used to develop application for mobile devices like cell phones.
 
-Simple Java Program:
+Simple Java Program: Listing 1.1
 public class Welcome {
 	public static void main(String args[])
 	{
@@ -43,15 +43,14 @@ Javac Welcome.java // To Compile
 Java Welcome // To run
 
 The programmer will develop the source code.
-The compiler will compile the source code and generate the bytecode for the Java Virtual Machine to read and interpret the programs.
+The compiler will compile the source code(Welcome.java file) and generate the bytecode(Welcome.class file) for the Java Virtual Machine to read and interpret the programs.
 Once the program is successfully compiled, The compiler will generate the .class file.
-Once the program is executed by the JVM, it will display out put on the console.
+Once the .class file is executed by the JVM, it will display the out put on the console.
 
 Command to execute the Java program is as follows.
 Java Welcome // where Welcome is the class name of the java class.
 
 Once the java program is executed by java Welcome command, the output will be displayed on the console.
-
 
 The Java language is high level language but the bytecode is low level language.
 

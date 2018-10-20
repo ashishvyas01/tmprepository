@@ -79,4 +79,33 @@ does not violate java's security restrictions.
 
 Java enforces strict security to make sure that Java class files are not tempared with and do not harm your computer.
 
+Programming Errors:
+
+Programming Errors are categorized into three types :
+Syntax errors
+Runtime errors
+Login errors
+
+Syntax Errors:
+Errors are detected by the compiler are called Syntax errors or compile errors.
+Syntax errors occured from the code constructions such as mistyping of a keyword,opening brace without corresponding closing brace etc.
+Since single error will often display many lines of compile errors, It is good practice to fix errors from top line and work downword.
+
+Runtime Errors:
+Runtime errors are errors that cause a program to terminate abnormally.
+They occur while a program is runnning.
+Input mistakes typically cause runtime errors.
+An input error occurs when a program is waiting for the user to enter someting and that value program can not handle.
+
+Example of Runtime errors.Listing 1.5
+public class ShorRuntimeErrors
+{
+	public static void main(String args[])
+	{
+		System.out.println(1/0);
+	}
+}
+ 
+Logic Errors:
+Logic errors occur when a program does not perform the way it was intended to.
 
